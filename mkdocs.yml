@@ -1,0 +1,101 @@
+site_name: OuterSpace Operator
+site_url: https://oop.alien6.com
+site_author: Ludovic FERNANDEZ, Alien6
+site_description: >-
+  A Kubernetes Operator to manage Algorithms with ease.
+
+# Repository
+repo_name: alien6-studio/outerspace-operator
+repo_url: https://github.com/alien6-studio/outerspace-operator
+
+# Copyright
+copyright: Copyright &copy; 2023 Alien6
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github-alt 
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/logo.png
+  features:
+    - announce.dismiss
+    - announce.hide
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    #- toc.integrate
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# plugins:
+#   - social:
+#       cards_dir: assets/images/social
+
+extra:
+  generator: false
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+
+# Page tree
+nav:
+  - Home: index.md
+  - Documentation:
+    - Introduction: introduction.md
+    - Key Features: 
+      - Features: features/features.md
+      - Ground Control: features/ground-control.md
+    - Setup:
+      - Installation Guide: setup/installation-guide.md
+      - Configuration Guide: setup/configuration-guide.md
+      - Security Guide: setup/security-guide.md
+  - About:
+    - FAQ: about/faq.md
+    - Commercial Support: about/commercial-support.md
+
