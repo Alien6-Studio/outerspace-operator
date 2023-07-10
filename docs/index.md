@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: OuterSpace Operator
+title:
 ---
 
 This is a pure content

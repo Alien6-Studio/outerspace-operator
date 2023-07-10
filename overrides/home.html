@@ -1,28 +1,133 @@
-  {% extends "main.html" %}
-  {% block tabs %}
-    {{ super() }}
-    <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
-    <section class="mdx-container">
-      <div class="md-grid md-typeset">
-        <div class="mdx-hero">
-          <div class="mdx-hero__image">
-            <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
-          </div>
-          <div class="mdx-hero__content">
-            <h1>Your One-Stop Solution for Efficient Cloud-Based Algorithm Deployment</h1>
-            <p>{{ config.site_description }}</p>
-            <a href="{{ 'introduction/' | url }}" title="Documentation" class="md-button">
-              Documentation
-            </a>
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+
+  .md-main {
+    height: 0;
+  }
+  .md-header {
+    position: initial
+  }
+
+  .md-main__inner {
+    margin: 0
+  }
+
+  .md-content {
+    display: none
+  }
+
+  @media screen and (min-width:60em) {
+    .md-sidebar--secondary {
+      display: none
+    }
+  }
+
+  @media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+      display: none
+    }
+  }
+</style>
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div class="mdx-hero__image">
+        <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+      </div>
+      <div class="mdx-hero__content">
+        <h1>Your Enterprise-Grade Solution for Fast Cloud-Based Algorithm Deployment</h1>
+        <p>{{ config.site_description }}</p>
+        <a href="{{ 'introduction/' | url }}" title="Getting Started" class="md-button">
+          Getting Started
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="md-container" data-md-component="container">
+  <div class="md-grid md-typeset">
+    <h1 class="mdx-project-title">Built-in Connectors</h1>
+    <div class="mdx-project-grid">
+      <div class="mdx-project">
+        <h3>Cert Manager</h3>
+        <a href="https://cert-manager.io/" target="_blank"><img src="assets/images/cert-manager.svg"
+            alt="Cert Manager"></a>
+        <figcaption>
+          Secure your communications and earn in trust with automated TLS certificate management via Cert Manager. 
+          This critical security feature underscores our commitment to deliver Kubernetes solutions that prioritize 
+          user safety and data privacy.
+        </figcaption>
+      </div>
+      <div class="mdx-project">
+        <h3>Nginx</h3>
+        <a href="https://www.nginx.com/" target="_blank"><img src="assets/images/nginx.svg" alt="Nginx"></a>
+        <figcaption>
+          Experience service performance and reliability with NGINX.
+          Integration with NGINX ensures effective load balancing and flexible routing on Algorithms, 
+          making our operator fully-compliant with the most ambitious service agreements.
+        </figcaption>
+      </div>
+      <div class="mdx-project">
+        <h3>Kong</h3>
+        <a href="https://konghq.com/kong/" target="_blank"><img src="assets/images/kong.svg" alt="Kong"></a>
+        <figcaption>
+          Ensure efficient API Management with Kong. Our Kubernetes operator integrates natively with Kong for 
+          effective API management, delivering superior performance and versatility for your algorithms.
+        </figcaption>
+      </div>
+      <div class="mdx-project">
+        <h3>Keycloak</h3>
+        <a href="https://www.keycloak.org/" target="_blank"><img src="assets/images/keycloak.svg" alt="Keycloak"></a>
+        <figcaption>
+          Leverage the robust authentication and fine-grained authorization provided by Keycloak with the OuterSpace 
+          Operator. Our Kubernetes operator's integration with Keycloak ensures stringent access control to your 
+          resources and services, safeguarding your sensitive operations and workflows.
+        </figcaption>
+      </div>
+      <div class="mdx-project">
+        <h3>RabbitMQ</h3>
+        <a href="https://www.rabbitmq.com/" target="_blank"><img src="assets/images/rabbitmq.svg" alt="RabbitMQ"></a>
+        <figcaption>
+          Boost the efficiency and reliability of inter-service communication with the seamless integration with RabbitMQ. 
+          This feature-rich message broker enables robust distributed applications and streamlines operations, making it 
+          an integral part of our solution.
+        </figcaption>
+      </div>
+      <div class="mdx-project">
+        <h3>Prometheus</h3>
+        <a href="https://prometheus.io/" target="_blank"><img src="assets/images/prometheus.svg" alt="Prometheus"></a>
+        <figcaption>
+          Gain invaluable performance insights through detailed monitoring and metrics tracking provided by Prometheus. 
+          Enhance your understanding of your services' performance and troubleshoot issues efficiently.
+        </figcaption>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mdx-parallax__group" data-md-color-scheme="slate" data-md-color-primary="indigo">
+  <div class="md-grid">
+    <div class="md-content__inner mdx-content__inner">
+      <div class="mdx-content__column">
+        <header class="md-typeset">
+          <h1 id="become-a-sponsor">Join our Insiders Program today!</h1>
+        </header>
+        <div class="mdx-connect md-typeset">
+          <div class="mdx-connect__column">
+            <p>As an <a href="insiders/">Insider</a>, you'll gain immediate access to the latest features of our innovative 
+              operator, playing a pivotal role in supporting its ongoing development. Moreover, you'll have a unique opportunity 
+              to help shape the evolution of our product, as your feedback will directly influence our continuous improvement 
+              process. Together, we can accelerate algorithm deployments and push the boundaries of Data Sciences. 
+              Embark on this exciting journey and become an Insider today!
+            <p> <a href="insiders/" class="md-button" aria-label="Insiders"> Learn more </a> </p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="md-container">
-
-    </section>
-  {% endblock %}
-  {% block footer %}
-    {{ super() }}
-  {% endblock %}
-  
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block footer %}
+{{ super() }}
+{% endblock %}

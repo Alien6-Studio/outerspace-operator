@@ -2,7 +2,9 @@ site_name: OuterSpace Operator
 site_url: https://operator.outerspace.sh
 site_author: Ludovic FERNANDEZ, Alien6
 site_description: >-
-  A Kubernetes Operator to manage Algorithms with ease.
+  OuterSpace Operator is a robust tool designed to efficiently manage, deploy and operate your algorithms on a Kubernetes cluster.
+  Install and configure OuterSpace Operator thanks to our comprehensive documentation.
+site_keywords: Kubernetes, Algorithms, Machine Learning, AI, MLOps
 
 # Repository
 repo_name: alien6-studio/outerspace-operator
@@ -66,8 +68,11 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
-# plugins:
+  - attr_list
+  - md_in_html
+  
+#plugins:
+#   - tags
 #   - social:
 #       cards_dir: assets/images/social
 
@@ -86,7 +91,7 @@ extra:
 # Page tree
 nav:
   - Home: index.md
-  - Documentation:
+  - Getting Started:
     - Introduction: introduction.md
     - Key Features: 
       - Features: features/features.md
@@ -98,4 +103,6 @@ nav:
   - About:
     - FAQ: about/faq.md
     - Commercial Support: about/commercial-support.md
+  - Insiders:
+    - Program:  insiders/index.md
 
