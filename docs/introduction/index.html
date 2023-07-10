@@ -1,99 +1,102 @@
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!doctype html>
+  <html lang="en" class="no-js">
+    <head>
       
-        <meta name="description" content="A Kubernetes Operator to manage Algorithms with ease.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <meta name="keywords" content="Kubernetes, Algorithms, Machine Learning, AI, MLOps" />
+        
+        
+          <meta name="description" content="OuterSpace Operator is a robust tool designed to efficiently manage, deploy and operate your algorithms on a Kubernetes cluster. Install and configure OuterSpace Operator thanks to our comprehensive documentation.">
+        
+        
+          <meta name="author" content="Ludovic FERNANDEZ, Alien6">
+        
+        
+          <link rel="canonical" href="https://operator.outerspace.sh/introduction/">
+        
+        
+          <link rel="prev" href="..">
+        
+        
+          <link rel="next" href="../features/features/">
+        
+        <link rel="icon" href="../assets/images/logo.png">
+        <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
       
-      
-        <meta name="author" content="Ludovic FERNANDEZ, Alien6">
-      
-      
-        <link rel="canonical" href="https://oop.alien6.com/introduction/">
-      
-      
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="../features/features/">
-      
-      <link rel="icon" href="../assets/images/logo.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
-    
-    
-      
-        <title>Introduction - OuterSpace Operator</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+          <title>Introduction - OuterSpace Operator</title>
+        
       
       
+        <link rel="stylesheet" href="../assets/stylesheets/main.26e3688c.min.css">
+        
+          
+          <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+        
+        
 
-    
-    
-    
+      
+      
       
         
+          
+          
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+          <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
         
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
-    
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
       
+      <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      
+        
 
-    
-    
-    
+      
+      
+      
   <link rel="stylesheet" href="../assets/stylesheets/custom.f7ec4df2.min.css">
 
-  </head>
-  
-  
+    </head>
     
     
       
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
-  
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
-          Skip to content
-        </a>
       
-    </div>
-    <div data-md-component="announce">
       
-        <aside class="md-banner">
-          <div class="md-banner__inner md-grid md-typeset">
-            
-              <button class="md-banner__button md-icon" aria-label="Don't show this again">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-              </button>
-            
-            
+      
+      
+      <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    
+      
+      
+        <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      
+      <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+      <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+      <label class="md-overlay" for="__drawer"></label>
+      <div data-md-component="skip">
+        
+          
+          <a href="#introduction" class="md-skip">
+            Skip to content
+          </a>
+        
+      </div>
+      <div data-md-component="announce">
+        
+          <aside class="md-banner">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+                <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+                </button>
+              
+              
 For updates follow <strong>@__alien6</strong> on   
   <a href="https://twitter.com/__alien6">
   <span class="twemoji twitter">
@@ -101,16 +104,16 @@ For updates follow <strong>@__alien6</strong> on
   </span>
   <strong>Twitter</strong>
 
-          </div>
-          
-            <script>var content,el=document.querySelector("[data-md-component=announce]");el&&(content=el.querySelector(".md-typeset"),__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0))</script>
-          
-        </aside>
+            </div>
+            
+              <script>var content,el=document.querySelector("[data-md-component=announce]");el&&(content=el.querySelector(".md-typeset"),__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0))</script>
+            
+          </aside>
+        
+      </div>
       
-    </div>
-    
-    
       
+        
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
@@ -222,13 +225,13 @@ For updates follow <strong>@__alien6</strong> on
   </nav>
   
 </header>
-    
-    <div class="md-container" data-md-component="container">
       
-      
+      <div class="md-container" data-md-component="container">
+        
         
           
             
+              
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -257,7 +260,7 @@ For updates follow <strong>@__alien6</strong> on
   
     <li class="md-tabs__item">
       <a href="./" class="md-tabs__link md-tabs__link--active">
-        Documentation
+        Getting Started
       </a>
     </li>
   
@@ -279,21 +282,37 @@ For updates follow <strong>@__alien6</strong> on
   
 
       
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../insiders/" class="md-tabs__link">
+        Insiders
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
+            
           
         
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
+        <main class="md-main" data-md-component="main">
+          <div class="md-main__inner md-grid">
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+                
+                <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                  <div class="md-sidebar__scrollwrap">
+                    <div class="md-sidebar__inner">
+                      
 
   
 
@@ -365,14 +384,14 @@ For updates follow <strong>@__alien6</strong> on
       
       
         <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-          Documentation
+          Getting Started
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Documentation
+          Getting Started
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -682,18 +701,65 @@ For updates follow <strong>@__alien6</strong> on
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../insiders/">Insiders</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Insiders
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
+                    </div>
                   </div>
                 </div>
-              </div>
-            
-            
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+              
+                
+                <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                  <div class="md-sidebar__scrollwrap">
+                    <div class="md-sidebar__inner">
+                      
 
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
@@ -732,16 +798,16 @@ For updates follow <strong>@__alien6</strong> on
     </ul>
   
 </nav>
+                    </div>
                   </div>
                 </div>
-              </div>
+              
             
-          
-          
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
+            
+              <div class="md-content" data-md-component="content">
+                <article class="md-content__inner md-typeset">
                   
+                    
 
   
   
@@ -773,21 +839,21 @@ Regardless of your industry, OuterSpace Operator helps you maintain high efficie
 
 
 
-                
-              </article>
-            </div>
+                  
+                </article>
+              </div>
+            
+            
+          </div>
           
+            <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+              Back to top
+            </button>
           
-        </div>
+        </main>
         
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
-            Back to top
-          </button>
-        
-      </main>
-      
-        <footer class="md-footer">
+          <footer class="md-footer">
   
     
       
@@ -841,17 +907,17 @@ Regardless of your industry, OuterSpace Operator helps you maintain high efficie
     </div>
   </div>
 </footer>
+        
+      </div>
+      <div class="md-dialog" data-md-component="dialog">
+        <div class="md-dialog__inner md-typeset"></div>
+      </div>
       
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
+        <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+          <div class="md-consent__overlay"></div>
+          <aside class="md-consent__inner">
+            <form class="md-consent__form md-grid md-typeset" name="consent">
+              
 
 
   
@@ -893,19 +959,19 @@ Regardless of your industry, OuterSpace Operator helps you maintain high efficie
     
   
 </div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
-    
-    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "announce.hide", "content.code.copy", "content.tooltips", "header.autohide", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-    
-    
-  
-      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+            </form>
+          </aside>
+        </div>
+        <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
       
-    
+      <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "announce.hide", "content.code.copy", "content.tooltips", "header.autohide", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+      
+      
+  
+        <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+        
+      
   <script src="../assets/javascripts/custom.a1e08cb1.min.js"></script>
 
-  </body>
-</html>
+    </body>
+  </html>

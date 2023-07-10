@@ -1,48 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://oop.alien6.com/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/introduction/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/introduction/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/about/commercial-support/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/about/commercial-support/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/about/faq/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/about/faq/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/features/features/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/features/features/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/features/ground-control/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/features/ground-control/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/setup/configuration-guide/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/insiders/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/setup/installation-guide/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/setup/configuration-guide/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://oop.alien6.com/setup/security-guide/</loc>
-         <lastmod>2023-07-07</lastmod>
+         <loc>https://operator.outerspace.sh/setup/installation-guide/</loc>
+         <lastmod>2023-07-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://operator.outerspace.sh/setup/security-guide/</loc>
+         <lastmod>2023-07-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
