@@ -71,10 +71,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   
-#plugins:
-#   - tags
-#   - social:
-#       cards_dir: assets/images/social
+plugins:
+  - social:
+      cards_dir: assets/images/social
 
 extra:
   generator: false
