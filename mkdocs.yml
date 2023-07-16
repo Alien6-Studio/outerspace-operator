@@ -74,8 +74,11 @@ plugins:
   - social:
       cards_dir: assets/images/social
   - blog:
+      archive: false
       #blog_toc: true  
       blog_dir: blog
+      post_readtime: true
+      post_readtime_words_per_minute: 280
 
 
 extra:
@@ -92,6 +95,20 @@ extra:
   analytics:
     provider: google
     property: G-LG6R0GSCH8
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/heart 
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/heart-broken
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by contacting our 
+            support team using Live Chat.
 
 # Page tree
 nav:

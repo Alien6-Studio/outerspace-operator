@@ -1,11 +1,12 @@
 ---
 draft: false
 date: 2023-07-15
-readtime: 8
 authors:
   - ludovicfernandez
 categories:
   - General
+hide:
+  - feedback
 ---
 
 # A comprehensive guide to Kubernetes Operators for efficient algorithm deployment
