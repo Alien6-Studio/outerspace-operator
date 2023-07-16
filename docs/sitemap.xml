@@ -61,11 +61,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://operator.outerspace.sh/blog/archive/2023/</loc>
-         <lastmod>2023-07-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://operator.outerspace.sh/blog/category/general/</loc>
          <lastmod>2023-07-16</lastmod>
          <changefreq>daily</changefreq>
