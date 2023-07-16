@@ -529,7 +529,7 @@
     font-weight: 700
 }
 
-.md-header__button.md-logo img, 
+.md-header__button.md-logo img,
 .md-header__button.md-logo svg {
     display: block;
     height: 5rem;
@@ -569,43 +569,43 @@
 
 @media (min-width: 125vh) {
     .mdx-parallax__group:first-child {
-        height:120vw
+        height: 120vw
     }
 }
 
 @media (min-width: 137.5vh) {
     .mdx-parallax__group:first-child {
-        height:125vw
+        height: 125vw
     }
 }
 
 @media (min-width: 150vh) {
     .mdx-parallax__group:first-child {
-        height:130vw
+        height: 130vw
     }
 }
 
 @media (min-width: 162.5vh) {
     .mdx-parallax__group:first-child {
-        height:135vw
+        height: 135vw
     }
 }
 
 @media (min-width: 175vh) {
     .mdx-parallax__group:first-child {
-        height:140vw
+        height: 140vw
     }
 }
 
 @media (min-width: 187.5vh) {
     .mdx-parallax__group:first-child {
-        height:145vw
+        height: 145vw
     }
 }
 
 @media (min-width: 200vh) {
     .mdx-parallax__group:first-child {
-        height:150vw
+        height: 150vw
     }
 }
 
@@ -614,7 +614,7 @@
 }
 
 .mdx-parallax__layer {
-    height: max(120vh,100vw);
+    height: max(120vh, 100vw);
     pointer-events: none;
     position: absolute;
     top: 0;
@@ -628,16 +628,16 @@
     display: block;
     height: 100%;
     object-fit: cover;
-    object-position: var(--md-image-position,50%);
+    object-position: var(--md-image-position, 50%);
     position: absolute;
     width: 100%;
     z-index: -1
 }
 
 .mdx-parallax__blend {
-    background-image: linear-gradient(to bottom,#0000,var(--md-default-bg-color));
+    background-image: linear-gradient(to bottom, #0000, var(--md-default-bg-color));
     bottom: 0;
-    height: min(100vh,100vw);
+    height: min(100vh, 100vw);
     top: auto
 }
 
@@ -658,34 +658,34 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    margin-left: 5rem;
-  }
-  
-  .mdx-project-grid > * {
+    justify-content: space-between;
+}
+
+.mdx-project-grid>* {
     flex-basis: calc(33.33% - 5rem);
     /* Pour éviter le débordement de la dernière colonne */
     box-sizing: border-box;
     background: #f2f2f2;
-  }
-  
-  /* Pour éviter le débordement de la dernière colonne */
-  .mdx-project-grid::after {
+}
+
+/* Pour éviter le débordement de la dernière colonne */
+.mdx-project-grid::after {
     content: "";
     flex-basis: calc(33.33% - 5rem);
-  }
-  
-  /* Réglages pour les écrans encore plus petits */
-  @media screen and (max-width: 768px) {
-    .mdx-project-grid > * {
-      flex-basis: 100%;
+}
+
+/* Réglages pour les écrans encore plus petits */
+@media screen and (max-width: 768px) {
+    .mdx-project-grid>* {
+        flex-basis: 100%;
     }
-  
+
     /* Pour éviter le débordement de la dernière colonne */
     .mdx-project-grid::after {
-      flex-basis: 100%;
+        flex-basis: 100%;
     }
-  }
-    
+}
+
 .mdx-project-title {
     font-weight: 300;
     letter-spacing: -.01em;
@@ -704,9 +704,9 @@
     filter: grayscale(1);
     color: rgba(0, 0, 0, .8);
     opacity: .6;
-  }
-  
-.mdx-project > * {
+}
+
+.mdx-project>* {
     flex-grow: 1;
     min-height: 50px;
 }
@@ -720,21 +720,26 @@
 
 .mdx-project__item:hover {
     transform: scale(1.05);
-    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .mdx-project img {
-    width: 100px; /* Définir la largeur */
-    height: auto; /* Garder l'aspect ratio */
-    margin: 10px 0; /* Ajouter de la marge en haut et en bas */
-    transition: transform 0.2s; /* Animation douce quand on passe la souris sur le logo */
+    width: 100px;
+    /* Définir la largeur */
+    height: auto;
+    /* Garder l'aspect ratio */
+    margin: 10px 0;
+    /* Ajouter de la marge en haut et en bas */
+    transition: transform 0.2s;
+    /* Animation douce quand on passe la souris sur le logo */
     margin: auto 0;
     filter: #a63fd9;
     opacity: 1;
-  }
-  
+}
+
 .mdx-project img:hover {
-transform: scale(1.1); /* Augmente la taille du logo de 10% quand on passe la souris dessus */
+    transform: scale(1.1);
+    /* Augmente la taille du logo de 10% quand on passe la souris dessus */
 }
 
 .mdx-project figcaption {
