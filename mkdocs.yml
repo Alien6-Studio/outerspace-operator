@@ -4,7 +4,6 @@ site_author: Ludovic FERNANDEZ, Alien6
 site_description: >-
   OuterSpace Operator is a robust tool designed to efficiently manage, deploy and operate your algorithms on a Kubernetes cluster.
   Install and configure OuterSpace Operator thanks to our comprehensive documentation.
-site_keywords: Kubernetes, Algorithms, Machine Learning, AI, MLOps
 
 # Repository
 repo_name: alien6-studio/outerspace-operator
@@ -74,6 +73,10 @@ markdown_extensions:
 plugins:
   - social:
       cards_dir: assets/images/social
+  - blog:
+      #blog_toc: true  
+      blog_dir: blog
+
 
 extra:
   generator: false
@@ -86,6 +89,9 @@ extra:
       make our documentation better.
     actions:
       - accept
+  analytics:
+    provider: google
+    property: G-LG6R0GSCH8
 
 # Page tree
 nav:
@@ -103,5 +109,7 @@ nav:
     - FAQ: about/faq.md
     - Commercial Support: about/commercial-support.md
   - Insiders:
-    - Program:  insiders/index.md
+    - Program: insiders/index.md
+  - Blog:
+    - blog/index.md
 
