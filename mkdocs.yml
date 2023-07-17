@@ -69,6 +69,9 @@ markdown_extensions:
       custom_checkbox: true
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   
 plugins:
   - social:
@@ -109,6 +112,9 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by contacting our 
             support team using Live Chat.
+
+extra_css:
+  - stylesheets/extra.css
 
 # Page tree
 nav:
