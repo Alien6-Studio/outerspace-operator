@@ -1,3 +1,8 @@
+---
+title: FAQ - Managing Algorithms with OuterSpace Operator
+description: Find answers to frequently asked questions about how to use OuterSpace Operator to manage your algorithms.
+---
+
 # Frequently Asked Questions
 
 ## What is the OuterSpace Operator?

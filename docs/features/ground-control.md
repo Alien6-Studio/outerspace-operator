@@ -1,3 +1,8 @@
+---
+title: Ground Control
+description: Discover Ground Control, our UI console designed to manage and monitor your algorithm deployments on kubernetes.
+---
+
 # Ground Control
 
 In concert with the OuterSpace Operator, __Ground Control__ allows you to easily manage and monitor your deployments, whether they are large or small, simple or complex. From individual algorithm deployments to orchestrating entire fleets of algorithm pods, Ground Control and OuterSpace Operator make the process easier and more efficient.

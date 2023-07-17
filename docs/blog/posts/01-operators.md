@@ -1,5 +1,7 @@
 ---
 draft: false
+title: A comprehensive guide to k8s Operators
+description: Blog Series - How OuterSpace Operator can transform the way you deploy algorithms in kubernetes
 date: 2023-07-15
 authors:
   - ludovicfernandez

@@ -1,3 +1,8 @@
+---
+title: Configuration Guide
+description: Follow our comprehensive configuration guide to set up OuterSpace Operator.
+---
+
 # Configuration Guide
 
 ## Ground Control Configuration

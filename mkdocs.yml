@@ -2,7 +2,7 @@ site_name: OuterSpace Operator
 site_url: https://operator.outerspace.sh
 site_author: Ludovic FERNANDEZ, Alien6
 site_description: >-
-  OuterSpace Operator is a robust tool designed to efficiently manage, deploy and operate your algorithms on a Kubernetes cluster.
+  OuterSpace Operator is a robust tool designed to efficiently manage, deploy and operate your algorithms on Kubernetes.
   Install and configure OuterSpace Operator thanks to our comprehensive documentation.
 
 # Repository

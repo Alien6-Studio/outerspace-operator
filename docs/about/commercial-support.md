@@ -1,3 +1,8 @@
+---
+title: Commercial Support and Licensing
+description: Get commercial support for OuterSpace Operator, a robust tool for managing algorithms on Kubernetes.
+---
+
 # Commercial Support and Licensing
 
 __OuterSpace Operator__ is exclusively licensed and sold by __Alien6__, a renowned IT consulting and publishing company based in Paris / Enghien-les-Bains, France. With Alien6's extensive expertise and commitment to customer success, you can be assured of receiving __top-tier support and guidance__ throughout your journey with our Kubernetes Operator.

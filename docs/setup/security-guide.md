@@ -1,3 +1,8 @@
+---
+title: Security Guide
+description: Follow our comprehensive security guide to set up OuterSpace Operator.
+---
+
 # Security Guide
 
 The OuterSpace Operator assures end-to-end security via OAuth2 protocol. Specifically, it is designed to work seamlessly with Keycloak and Azure Active Directory (AAD). In the absence of an external authentication system configuration, the operator automatically resorts to Keycloak for authentication and identity management.

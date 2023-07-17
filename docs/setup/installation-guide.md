@@ -1,3 +1,8 @@
+---
+title: Installation Guide
+description: Follow our comprehensive installation guide to set up OuterSpace Operator.
+---
+
 # Installation Guide
 
 The OuterSpace Operator provides flexibility and options when it comes to its setup, allowing you to choose between various integrations. This guide provides an overview of how to install the OuterSpace Operator, along with some customizable options like the choice of database, queuing system, security options and monitoring.

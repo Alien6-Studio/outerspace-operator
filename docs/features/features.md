@@ -1,3 +1,8 @@
+---
+title: Key Features
+description: Discover the key features of OuterSpace Operator
+---
+
 # Key Features
 
 Our Kubernetes Operator has been packed with many features designed to simplify your algorithm deployment process. It offers unparalleled multi-cloud support, providing you with the flexibility to deploy on various cloud platforms such as __AWS__, __Google Cloud__, __Azure__, and more. The __automated scaling__ functionality not only ensures optimal resource utilization but also provides cost savings and reliability during peak loads. Our unique __load normalization__ feature not only prevents bottlenecks but also ensures consistent, high-quality performance across operations..

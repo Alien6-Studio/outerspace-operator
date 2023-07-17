@@ -1,4 +1,9 @@
-# Insiders
+---
+title: Join our Insiders Program
+description: Gain immediate access to the latest features of OuterSpace Operator.
+---
+
+# Join our Insiders Program
 
 To take our commitment to customer success one step further, we are excited to introduce the __OuterSpace Operator Insiders Program__. This initiative is designed to provide users with immediate access to our latest features and innovations, even before they become widely available.
 

@@ -1,4 +1,9 @@
-# Introduction
+---
+title: Efficient Algorithm Deployment on Kubernetes
+description: Introducing OuterSpace Operator, a robust tool designed to revolutionize the way you deploy algorithms in the cloud.
+---
+
+# Efficient Algorithm Deployment on Kubernetes
 
 We are thrilled to present __OuterSpace Operator__, designed to revolutionize the way you deploy algorithms in the cloud. Our customizable Kubernetes Operator is designed to handle a diverse range of algorithms - from statistical and mechanistic to inference ones. This operator is your answer to seamless, efficient algorithm deployment, freeing up your team to focus on innovation and core business tasks.
 
