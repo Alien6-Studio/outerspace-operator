@@ -1,6 +1,8 @@
 ---
 title: Press Room
 description: Stay up-to-date with the latest news and announcements from OuterSpace Operator.
+hide:
+  - feedback
 ---
 
 # Press Room
@@ -20,5 +22,6 @@ Alien6, a IT strategy consulting firm and AI enabler, today announced the launch
 
 Stay connected with OuterSpace Operator on our social media channels:
 
-- :fontawesome-brands-twitter:{ .twitter } [Twitter](https://twitter.com/__alien6){:target="_blank"}
-- :fontawesome-brands-linkedin:{ .linkedin } [LinkedIn](https://www.linkedin.com/company/alien6){:target="_blank"}
+:fontawesome-brands-twitter:{ .icon-grey } [Twitter](https://twitter.com/__alien6){:target="_blank"}
+
+:fontawesome-brands-linkedin:{ .icon-grey } [LinkedIn](https://www.linkedin.com/company/alien6){:target="_blank"}

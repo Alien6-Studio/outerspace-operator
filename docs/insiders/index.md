@@ -13,4 +13,5 @@ With the Insiders Program, we aim to strengthen our collaboration with our custo
 
 In addition to our top-tier support and transparent licensing, the Insiders Program further exemplifies Alien6's dedication to building and fostering strong, mutually beneficial relationships with our customers. It signifies our unwavering commitment to ensuring your success and satisfaction.
 
-__Join the OuterSpace Operator Insiders Program today, and take an active role in shaping the future of Kubernetes technology!__
+!!! Tip 
+    __Join the OuterSpace Operator Insiders Program today, and take an active role in shaping the future of Kubernetes technology!__

@@ -7,7 +7,7 @@ description: Find answers to frequently asked questions about how to use OuterSp
 
 ## What is the OuterSpace Operator?
 
-The OuterSpace Operator is a __Kubernetes operator__ designed to simplify your algorithm deployment process. It manages deployments on various cloud platforms such as AWS, Google Cloud, Azure, and more, providing features like automated scaling, load normalization, wide algorithm support, and advanced security measures.
+OuterSpace Operator is a __Kubernetes operator__ designed to simplify your algorithm deployment process. It manages deployments on various cloud platforms such as AWS, Google Cloud, Azure, and more, providing features like automated scaling, load normalization, wide algorithm support, and advanced security measures.
 
 ## How does OuterSpace Operator integrate with other systems?
 
@@ -23,7 +23,7 @@ OuterSpace Operator prioritizes security and adheres to industry best practices.
 
 ## How can I customize OuterSpace Operator to suit my needs?
 
-OuterSpace Operator is __fully customizable__, allowing users to tailor deployments according to their specific needs. For more details on customization, refer to the respective sections of the documentation.
+OuterSpace Operator is __fully customizable__, allowing users to tailor deployments according to their specific needs. For more details on customization, refer to the respective sections of the documentation or contact our support team at support@outerspace.sh.
 
 ## Can I use OuterSpace Operator across different cloud providers?
 

@@ -114,7 +114,7 @@ extra:
             support team using Live Chat.
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 # Page tree
 nav:
@@ -128,12 +128,14 @@ nav:
       - Installation Guide: setup/installation-guide.md
       - Configuration Guide: setup/configuration-guide.md
       - Security Guide: setup/security-guide.md
+  - Insiders:
+    - Program: insiders/index.md
+    - Roadmap: insiders/roadmap.md
   - About:
     - FAQ: about/faq.md
     - Commercial Support: about/commercial-support.md
+    - Enterprise Support: about/enterprise-support.md
     - Press Room: about/press-room.md
-  - Insiders:
-    - Program: insiders/index.md
   - Blog:
     - blog/index.md
 
