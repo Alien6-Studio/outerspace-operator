@@ -2,82 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://operator.outerspace.sh/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/introduction/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://operator.outerspace.sh/key-usages/</loc>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/about/commercial-support/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/about/enterprise-support/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/about/faq/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/about/press-room/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/blog/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/blog/2023/07/15/a-comprehensive-guide-to-k8s-operators/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/features/features/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/features/ground-control/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/insiders/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/insiders/roadmap/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/setup/configuration-guide/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/setup/installation-guide/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/setup/security-guide/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://operator.outerspace.sh/blog/category/general/</loc>
-         <lastmod>2023-07-18</lastmod>
+         <lastmod>2023-07-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
