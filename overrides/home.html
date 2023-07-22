@@ -33,12 +33,15 @@
   <div class="md-grid md-typeset">
     <div class="mdx-hero">
       <div class="mdx-hero__image">
-        <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+        <picture>
+          <source srcset="assets/images/illustration.webp" type="image/webp">
+          <img src="assets/images/illustration.png" alt="Illustration of OuterSpace Operator" width="1024" height="1024" draggable="false">
+        </picture>
       </div>
       <div class="mdx-hero__content">
-        <h1>Your Enterprise-Grade Solution for Fast Cloud-Based Algorithm Deployment</h1>
+        <h1>Your Enterprise-Grade Solution for Fast Cloud-Based Algorithm Deployment with OuterSpace Operator</h1>
         <p>{{ config.site_description }}</p>
-        <a href="{{ 'introduction/' | url }}" title="Getting Started" class="md-button">
+        <a href="{{ 'introduction/' | url }}" title="Getting Started" class="md-button" aria-label="Read more about OuterSpace Operator">
           Getting Started
         </a>
       </div>
@@ -48,11 +51,13 @@
 <section class="md-container" data-md-component="container">
   <div class="md-grid md-typeset">
     <h1 class="mdx-project-title">Built-in Connectors</h1>
+    <h2 class="mdx-project-subtitle">Effortlessly Connect to Top-Tier Solutions with Our Integrated Kubernetes Operator</h2>
     <div class="mdx-project-grid">
       <div class="mdx-project">
         <h3>Cert Manager</h3>
-        <a href="https://cert-manager.io/" target="_blank"><img src="assets/images/cert-manager.svg"
-            alt="Cert Manager"></a>
+        <a href="https://cert-manager.io/" target="_blank" aria-label="OuterSpace Operator has been validated with Cert Manager">
+          <img src="assets/images/cert-manager.svg" alt="Cert Manager" width="100" height="100">
+        </a>
         <figcaption>
           Secure your communications and earn in trust with automated TLS certificate management via Cert Manager. 
           This critical security feature underscores our commitment to deliver Kubernetes solutions that prioritize 
@@ -61,7 +66,9 @@
       </div>
       <div class="mdx-project">
         <h3>Nginx</h3>
-        <a href="https://www.nginx.com/" target="_blank"><img src="assets/images/nginx.svg" alt="Nginx"></a>
+        <a href="https://www.nginx.com/" target="_blank" aria-label="OuterSpace Operator has been validated with NGinx">
+          <img src="assets/images/nginx.svg" alt="Nginx" width="100" height="100">
+        </a>
         <figcaption>
           Experience service performance and reliability with NGINX.
           Integration with NGINX ensures effective load balancing and flexible routing on Algorithms, 
@@ -70,7 +77,9 @@
       </div>
       <div class="mdx-project">
         <h3>Kong</h3>
-        <a href="https://konghq.com/kong/" target="_blank"><img src="assets/images/kong.svg" alt="Kong"></a>
+        <a href="https://konghq.com/kong/" target="_blank" aria-label="OuterSpace Operator has been validated with Kong">
+          <img src="assets/images/kong.svg" alt="Kong" width="100" height="100">
+        </a>
         <figcaption>
           Ensure efficient API Management with Kong. Our Kubernetes operator integrates natively with Kong for 
           effective API management, delivering superior performance and versatility for your algorithms.
@@ -78,7 +87,9 @@
       </div>
       <div class="mdx-project">
         <h3>Keycloak</h3>
-        <a href="https://www.keycloak.org/" target="_blank"><img src="assets/images/keycloak.svg" alt="Keycloak"></a>
+        <a href="https://www.keycloak.org/" target="_blank" aria-label="OuterSpace Operator has been validated with Keycloak">
+          <img src="assets/images/keycloak.svg" alt="Keycloak" width="100" height="100">
+        </a>
         <figcaption>
           Leverage the robust authentication and fine-grained authorization provided by Keycloak with the OuterSpace 
           Operator. Our Kubernetes operator's integration with Keycloak ensures stringent access control to your 
@@ -87,7 +98,9 @@
       </div>
       <div class="mdx-project">
         <h3>RabbitMQ</h3>
-        <a href="https://www.rabbitmq.com/" target="_blank"><img src="assets/images/rabbitmq.svg" alt="RabbitMQ"></a>
+        <a href="https://www.rabbitmq.com/" target="_blank" aria-label="OuterSpace Operator has been validated with RabbitMQ">
+          <img src="assets/images/rabbitmq.svg" alt="RabbitMQ" width="100" height="100">
+        </a>
         <figcaption>
           Boost the efficiency and reliability of inter-service communication with the seamless integration with RabbitMQ. 
           This feature-rich message broker enables robust distributed applications and streamlines operations, making it 
@@ -96,7 +109,7 @@
       </div>
       <div class="mdx-project">
         <h3>Prometheus</h3>
-        <a href="https://prometheus.io/" target="_blank"><img src="assets/images/prometheus.svg" alt="Prometheus"></a>
+        <a href="https://prometheus.io/" target="_blank"><img src="assets/images/prometheus.svg" alt="Prometheus" width="100" height="100"></a>
         <figcaption>
           Gain invaluable performance insights through detailed monitoring and metrics tracking provided by Prometheus. 
           Enhance your understanding of your services' performance and troubleshoot issues efficiently.
@@ -114,12 +127,12 @@
         </header>
         <div class="mdx-connect md-typeset">
           <div class="mdx-connect__column">
-            <p>As an <a href="insiders/">Insider</a>, you'll gain immediate access to the latest features of our innovative 
+            <p>As an <a href="insiders/" aria-label="Discover our Insiders Program">Insider</a>, you'll gain immediate access to the latest features of our innovative 
               operator, playing a pivotal role in supporting its ongoing development. Moreover, you'll have a unique opportunity 
               to help shape the evolution of our product, as your feedback will directly influence our continuous improvement 
               process. Together, we can accelerate algorithm deployments and push the boundaries of Data Sciences. 
               Embark on this exciting journey and become an Insider today!
-            <p> <a href="insiders/" class="md-button" aria-label="Insiders"> Learn more </a> </p>
+            <p><a href="insiders/" class="md-button" ria-label="Discover our Insiders Program"> Learn more </a> </p>
           </div>
         </div>
       </div>

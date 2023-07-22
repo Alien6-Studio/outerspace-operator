@@ -692,6 +692,14 @@
     text-align: center;
 }
 
+.mdx-project-subtitle {
+    font-weight: 100;
+    font-size: 1rem !important;
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 1em;
+    color: rgba(0, 0, 0, .4);
+}
 .mdx-project {
     display: flex;
     flex-direction: column;
@@ -743,7 +751,7 @@
 }
 
 .mdx-project figcaption {
-    font-size: .6rem;
+    font-size: .7rem;
     font-weight: 300;
     text-align: center;
     padding: 1rem;

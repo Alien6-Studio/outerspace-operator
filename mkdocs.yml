@@ -72,7 +72,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  
+
 plugins:
   - social:
       cards_dir: assets/images/social
@@ -121,6 +121,7 @@ nav:
   - Home: index.md
   - Getting Started:
     - Introduction: introduction.md
+    - Key Usages: key-usages.md
     - Key Features: 
       - Features: features/features.md
       - Ground Control: features/ground-control.md
