@@ -121,7 +121,7 @@ nav:
   - Home: index.md
   - Getting Started:
     - Introduction: introduction.md
-    - Key Usages: key-usages.md
+    - Case Studies: usecases.md
     - Key Features: 
       - Features: features/features.md
       - Ground Control: features/ground-control.md
