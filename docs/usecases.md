@@ -1,3 +1,8 @@
+---
+title: Real-World Applications and Benefits
+description: Define your own value-added business scenarios and discover how OuterSpace Operator can revolutionize the way you deploy algorithms in the cloud.
+---
+
 # Real-World Applications and Benefits
 
 OuterSpace Operator is not just a tool but a game-changer for industries where algorithm management is critical.
