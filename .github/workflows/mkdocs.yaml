@@ -19,5 +19,6 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pymdown-extensions
       - run: pip install -U plantuml-markdown
+      - run: pip install pillow cairosvg
       - run: mkdocs build
       - run: mkdocs gh-deploy --force --clean --verbose
