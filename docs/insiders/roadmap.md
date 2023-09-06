@@ -3,6 +3,23 @@ title: Roadmap
 description: Stay ahead with immediate access to the latest features of OuterSpace Operator.
 ---
 
+After careful validation, we are pleased to announce that the scope of our upcoming release, __SolarianShield__, will focus on Cybersecurity and Automation. Building on the complementary portability introduced in the PeebleSky release, SolarianShield aims to take our platform's security to the next level and leverage the [OuterSpace Apizr](https://apizr.outerspace.sh){target=_blank} to accelerate the development of your algorithms.
+
+## SolarianShield
+
+!!! example "Planned Release Date: 2023-10-31"
+    Inspired by the isolated and secure planet Solaria in Isaac Asimov's universe, the SolarianShield release is a major security-focused update. It aims to fortify our platform by integrating open-source tools for vulnerability detection and enhancing security management.
+
+### Key Features
+
+* DAST Vulnerability Detection.
+* Container Scanning for vulnerability detection in container images.
+* Secure Secret Management for safe handling of API keys, passwords, tokens, etc.
+* Enhanced Logging and Monitoring Capabilities for quick detection and resolution of security issues.
+* OuterSpace Plugin for Apizr to accelerate the development of your algorithms.
+
+---
+
 ## PeebleSky
 
 !!! example "Released on 2023-07-31"

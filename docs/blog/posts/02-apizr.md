@@ -13,7 +13,7 @@ hide:
 
 # Discover the new brand OuterSpace's secret weapon
 
-A month ago, we brought you the first release of the OuterSpace Operator, aiming to redefine how you deploy algorithms on Kubernetes. Today, we're adding another tool to our suite, ensuring an even smoother integration and deployment process. Introducing [__Apizr__](https://apizr.outerspace.sh) - our answer to swift and efficient API creation. Seamlessly integrating with OuterSpace Operator, Apizr transforms your Python code into a containerized FastAPI backend, primed for Kubernetes deployment.
+A month ago, we brought you the first release of the OuterSpace Operator, aiming to redefine how you deploy algorithms on Kubernetes. Today, we're adding another tool to our suite, ensuring an even smoother integration and deployment process. Introducing [__Apizr__](https://apizr.outerspace.sh){:target="_blank"} - our answer to swift and efficient API creation. Seamlessly integrating with OuterSpace Operator, Apizr transforms your Python code into a containerized FastAPI backend, primed for Kubernetes deployment.
 
 <!-- more -->
 
@@ -49,7 +49,7 @@ Apizr's strength lies in its systematic four-step process:
 
 ## Looking Ahead with  SolarianShield
 
-Our commitment to continual enhancement is unwavering. In the upcoming updates for OuterSpace Operator, we have exciting news for our Insiders. Soon, you'll have access to an additional step: the capability to generate a Helm chart that's fully compatible with the Operator. This innovation is part of our next major release, __SolarianShield__, which we're thrilled to officially launch in the coming days. This release will not only streamline the deployment process but also reinforce the seamless integration between [__Apizr__](https://apizr.outerspace.sh)  and __OuterSpace Operator__, making your Kubernetes deployments more fluid than ever.
+Our commitment to continual enhancement is unwavering. In the upcoming updates for OuterSpace Operator, we have exciting news for our Insiders. Soon, you'll have access to an additional step: the capability to generate a Helm chart that's fully compatible with the Operator. This innovation is part of our next major release, __SolarianShield__, which we're thrilled to officially launch in the coming days. This release will not only streamline the deployment process but also reinforce the seamless integration between [__Apizr__](https://apizr.outerspace.sh){:target="_blank"} and __OuterSpace Operator__, making your Kubernetes deployments more fluid than ever.
 
 ## Dive Deep with Apizr - We Need You!
 
@@ -59,4 +59,4 @@ Each feedback, every constructive critique, and all the shared expertise will be
 
 By joining hands with us, you're not just contributing to a tool – you're becoming a pivotal part of Apizr's journey towards excellence. And in this endeavor, every voice matters, every effort counts, and every contributor becomes an integral part of our extended OuterSpace family.
 
-Let's come together, collaborate, and co-create a brighter, more efficient future with [__Apizr__](https://apizr.outerspace.sh) !
+Let's come together, collaborate, and co-create a brighter, more efficient future with [__Apizr__](https://apizr.outerspace.sh){:target="_blank"} !
